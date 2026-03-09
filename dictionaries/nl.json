@@ -1,0 +1,358 @@
+{
+  "navigation": {
+    "company": "Bedrijf",
+    "services": "Diensten",
+    "products": "Producten",
+    "about": "Over ons",
+    "leadership": "Leiderschap",
+    "careers": "Carrières",
+    "contact": "Contact",
+    "signIn": "Inloggen",
+    "signUp": "Aanmelden",
+    "getStarted": "Aan de slag"
+  },
+  "home": {
+    "hero": {
+      "title": "Beveilig uw digitale toekomst",
+      "subtitle": "Enterprise-grade cybersecurity en applicatieontwikkeling voor wereldwijde organisaties.",
+      "cta": "Bekijk diensten"
+    },
+    "stats": {
+      "clients": "Zakelijke klanten",
+      "uptime": "Uptime SLA",
+      "countries": "Wereldwijde ondersteuning",
+      "security": "Beveiligingsscore"
+    },
+    "dono": {
+      "label": "De Super App",
+      "title": "Dono",
+      "description": "De alles-in-één super-app voor de moderne onderneming. Communicatie, gegevensbeheer en beveiliging in één naadloos platform.",
+      "learnMore": "Meer informatie"
+    },
+    "shadow": {
+      "label": "Beveiligingsplatform",
+      "title": "Shadow",
+      "description": "AI-gestuurde dreigingsdetectie en geautomatiseerde respons. Bescherm uw organisatie met real-time beveiligingsinformatie.",
+      "learnMore": "Meer informatie"
+    },
+    "services": {
+      "title": "Ontwikkelingsdiensten",
+      "subtitle": "Full-stack expertise voor web-, mobiele en desktopapplicaties",
+      "viewAll": "Bekijk alle diensten",
+      "items": {
+        "web": {
+          "title": "Webontwikkeling",
+          "description": "Moderne webapplicaties gebouwd met React, Vue en Angular"
+        },
+        "mobile": {
+          "title": "Mobiele apps",
+          "description": "Native iOS- en Android-applicaties"
+        },
+        "desktop": {
+          "title": "Desktopsoftware",
+          "description": "Cross-platform desktopapplicaties"
+        },
+        "security": {
+          "title": "Cybersecurity",
+          "description": "Uitgebreide beveiligingsoplossingen en audits"
+        }
+      }
+    },
+    "cta": {
+      "title": "Klaar om te beginnen?",
+      "subtitle": "Sluit u aan bij 150+ wereldwijde ondernemingen die hun digitale infrastructuur beschermen met Secure Authorities",
+      "button": "Gratis proefperiode"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Gebouwd voor wereldwijde ondernemingen",
+      "subtitle": "Bescherming van 's werelds meest veeleisende organisaties met geavanceerde beveiliging en elite engineering."
+    },
+    "mission": {
+      "label": "Onze missie",
+      "title": "De toekomst veiligstellen",
+      "p1": "Organisaties wereldwijd versterken met geavanceerde beveiligingsoplossingen en innovatieve applicatieontwikkelingsdiensten die groei stimuleren en activa beschermen.",
+      "p2": "Wij geloven in een veilige digitale toekomst waarin bedrijven met vertrouwen opereren met geavanceerde beveiligingstechnologieën en robuuste infrastructuur."
+    },
+    "leadership": {
+      "label": "Leiderschap",
+      "title": "Expertise op schaal",
+      "cta": "Ontmoet het volledige team"
+    },
+    "values": {
+      "label": "Onze waarden",
+      "title": "Wat ons drijft",
+      "items": {
+        "global": {
+          "title": "Wereldwijd bereik",
+          "description": "Kantoren in 50+ landen met 24/7 lokale ondersteuning"
+        },
+        "team": {
+          "title": "Expertteam",
+          "description": "200+ gecertificeerde professionals toegewijd aan uitmuntendheid"
+        },
+        "leader": {
+          "title": "Industrieleider",
+          "description": "Bekroonde innovatie in beveiliging en ontwikkeling"
+        },
+        "client": {
+          "title": "Klant eerst",
+          "description": "99% tevredenheidsscore met gepersonaliseerde oplossingen"
+        }
+      }
+    },
+    "history": {
+      "label": "Onze geschiedenis",
+      "title": "De reis",
+      "milestones": {
+        "2010": {
+          "title": "Oprichting",
+          "description": "Opgericht met een visie om enterprise cybersecurity en applicatie-infrastructuur te revolutioneren."
+        },
+        "2015": {
+          "title": "Wereldwijde expansie",
+          "description": "Activiteiten uitgebreid naar 10 landen, met onze eerste Fortune 500-klanten in Londen en New York."
+        },
+        "2020": {
+          "title": "Productinnovatie",
+          "description": "Lancering van de Dono- en Shadow-platforms, waarmee nieuwe maatstaven werden gezet voor cloudgegevens en dreigingsdetectie."
+        },
+        "2026": {
+          "title": "Industrieel leiderschap",
+          "description": "Bedient meer dan 150+ zakelijke klanten wereldwijd als marktleider in de ontwikkeling van veilige applicaties."
+        }
+      }
+    },
+    "presence": {
+      "title": "Wereldwijde aanwezigheid",
+      "subtitle": "Onze gespecialiseerde teams zijn verspreid over grote wereldwijde hubs en bieden naadloze ondersteuning en engineering-uitmuntendheid, ongeacht de geografie."
+    }
+  },
+  "leadership": {
+    "title": "Leiderschap",
+    "subtitle": "Ontmoet het visionaire team dat de toekomst van enterprise cybersecurity en applicatieontwikkeling aanstuurt.",
+    "team": {
+      "alexander": {
+        "role": "Chief Executive Officer",
+        "bio": "Voormalig cybersecurity-lead bij wereldwijde financiële instellingen met meer dan 20 jaar ervaring in digitale transformatie."
+      },
+      "sarah": {
+        "role": "Chief Technology Officer",
+        "bio": "Expert in gedistribueerde systemen en door AI aangestuurde beveiliging. Leidde eerder engineeringteams bij topfirma's in Silicon Valley."
+      },
+      "marcus": {
+        "role": "Chief Information Security Officer",
+        "bio": "Gerenommeerd expert in threat intelligence en incidentrespons. Architect van het Shadow-beveiligingsplatform."
+      }
+    }
+  },
+  "careers": {
+    "title": "Carrières",
+    "subtitle": "Sluit u aan bij een wereldwijd team van experts die de volgende generatie beveiligings- en applicatie-infrastructuur bouwen.",
+    "benefits": {
+      "global": {
+        "title": "Wereldwijde impact",
+        "description": "Werk aan projecten die de meest kritieke digitale infrastructuur ter wereld beschermen."
+      },
+      "team": {
+        "title": "Expertteam",
+        "description": "Werk samen met industrieleiders in cybersecurity en software engineering."
+      },
+      "growth": {
+        "title": "Groei",
+        "description": "Versnel uw carrière met continu leren en uitdagende kansen."
+      }
+    },
+    "openPositions": "Openstaande vacatures",
+    "applyNow": "Nu solliciteren"
+  },
+  "contact": {
+    "title": "Neem contact op",
+    "subtitle": "Heeft u een vraag of wilt u een project bespreken? Ons team staat klaar om te helpen.",
+    "info": {
+      "email": "E-mail",
+      "phone": "Telefoon",
+      "office": "Wereldwijd hoofdkantoor"
+    },
+    "form": {
+      "firstName": "Voornaam",
+      "lastName": "Achternaam",
+      "email": "E-mailadres",
+      "subject": "Onderwerp",
+      "password": "Wachtwoord",
+      "message": "Bericht",
+      "send": "Bericht versturen",
+      "sending": "Verzenden...",
+      "success": "Bericht verzonden! We nemen spoedig contact met u op."
+    }
+  },
+  "products": {
+    "hero": {
+      "title": "Enterprise-producten",
+      "subtitle": "Cloud- en beveiligingsplatforms gebouwd voor schaal"
+    },
+    "dono": {
+      "features": {
+        "unified": { "title": "Gezamenlijk ecosysteem", "description": "Verbind al uw bedrijfsprocessen in één krachtige super-app." },
+        "data": { "title": "Data-intelligentie", "description": "Geïntegreerde cloudopslag met real-time analytics en inzichten." },
+        "messaging": { "title": "Veilige berichtgeving", "description": "Versleutelde communicatie van enterprise-kwaliteit voor uw hele team." },
+        "scaling": { "title": "Direct schalen", "description": "Wereldwijde infrastructuur die meegroeit met uw organisatie." },
+        "automation": { "title": "Workflow-automatisering", "description": "Optimaliseer activiteiten met ingebouwde productiviteitstools." },
+        "ready": { "title": "Klaar voor de onderneming", "description": "Voldoet aan wereldwijde normen en 99,99% maandelijks uptime SLA." }
+      },
+      "pricing": {
+        "title": "Dono-prijzen",
+        "starter": { "name": "Starter", "price": "€49", "features": ["100 GB opslag", "Tot 5 gebruikers", "Basis analytics", "E-mailondersteuning"] },
+        "professional": { "name": "Professional", "price": "€149", "features": ["1 TB opslag", "Tot 25 gebruikers", "Geavanceerde analytics", "24/7 ondersteuning", "Integraties"] },
+        "enterprise": { "name": "Enterprise", "price": "Maatwerk", "features": ["Onbeperkte opslag", "Onbeperkt aantal gebruikers", "Enterprise analytics", "Toegewijde ondersteuning", "SLA"] }
+      }
+    },
+    "shadow": {
+      "features": {
+        "ai": { "title": "AI-detectie", "description": "Machine learning met 99,9% nauwkeurigheid" },
+        "response": { "title": "Directe respons", "description": "Geautomatiseerde dreigingsneutralisatie" },
+        "trust": { "title": "Zero-Trust", "description": "Beveiligingsarchitectuur van enterprise-kwaliteit" },
+        "intelligence": { "title": "Intelligentie", "description": "Wereldwijde dreigingsanalyse" },
+        "compliance": { "title": "Compliance", "description": "GDPR, HIPAA rapportage" },
+        "monitoring": { "title": "24/7 Monitoring", "description": "SOC-monitoring" }
+      },
+      "pricing": {
+        "title": "Shadow-prijzen",
+        "basic": { "name": "Basis", "price": "€299", "features": ["50 Endpoints", "Real-time monitoring", "Dreigingsdetectie", "E-mailwaarschuwingen"] },
+        "advanced": { "name": "Geavanceerd", "price": "€799", "features": ["500 Endpoints", "AI-detectie", "Geautomatiseerde respons", "24/7 SOC", "Intelligentie"] },
+        "enterprise": { "name": "Enterprise", "price": "Maatwerk", "features": ["Onbeperkt aantal endpoints", "Aangepaste AI", "Toegewijde SOC", "Compliance Suite", "SLA"] }
+      }
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Ontwikkelingsdiensten",
+      "subtitle": "Full-stack expertise in web, mobiel, desktop en beveiliging"
+    },
+    "items": {
+      "web": {
+        "title": "Webontwikkeling",
+        "description": "Moderne, schaalbare webapplicaties gebouwd met geavanceerde technologieën",
+        "features": ["React, Vue en Angular", "Progressive Web Apps", "E-commerce platforms", "API-ontwikkeling"]
+      },
+      "mobile": {
+        "title": "Mobiele ontwikkeling",
+        "description": "Native en cross-platform mobiele applicaties voor iOS en Android",
+        "features": ["Native iOS en Android", "React Native ontwikkeling", "Flutter-applicaties", "App Store optimalisatie"]
+      },
+      "desktop": {
+        "title": "Desktopontwikkeling",
+        "description": "Cross-platform desktopapplicaties voor zakelijke omgevingen",
+        "features": ["Electron-applicaties", "Native ontwikkeling", "Cross-platform ondersteuning", "Zakelijke integratie"]
+      },
+      "security": {
+        "title": "Cybersecurity",
+        "description": "Uitgebreide beveiligingsoplossingen die uw digitale infrastructuur beschermen",
+        "features": ["Dreigingsdetectie", "Penratietesten", "Beveiligingscompliance", "Incidentrespons"]
+      }
+    },
+    "process": {
+      "title": "Ons proces",
+      "subtitle": "Bewezen methodologie die uitzonderlijke resultaten levert",
+      "steps": {
+        "discovery": { "title": "Ontdekking", "description": "Vereisten begrijpen en doelen definiëren" },
+        "design": { "title": "Ontwerp", "description": "Intuïtieve gebruikerservaringen creëren" },
+        "development": { "title": "Ontwikkeling", "description": "Bouwen met agile methodologie" },
+        "launch": { "title": "Lancering", "description": "Implementatie met voortdurende ondersteuning" }
+      }
+    },
+    "cta": {
+      "title": "Laten we samen bouwen",
+      "subtitle": "Neem contact met ons op om uw project te bespreken en een gratis adviesgesprek te krijgen"
+    }
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacybeleid",
+      "lastUpdated": "Laatst bijgewerkt: 8 maart 2026",
+      "sections": {
+        "acceptance": { "title": "1. Gegevensverzameling", "content": "Wij verzamelen informatie die u rechtstreeks aan ons verstrekt wanneer u een account aanmaakt, onze diensten gebruikt of met ons communiceert." },
+        "use": { "title": "2. Gebruik van informatie", "content": "Wij gebruiken de informatie die wij verzamelen om onze diensten te leveren, te onderhouden en te verbeteren, en om nieuwe te ontwikkelen." },
+        "sharing": { "title": "3. Informatie delen", "content": "Wij delen uw persoonlijke informatie niet met derden, behalve zoals beschreven in dit beleid." }
+      }
+    },
+    "terms": {
+      "title": "Algemene voorwaarden",
+      "lastUpdated": "Laatst bijgewerkt: 8 maart 2026",
+      "sections": {
+        "acceptance": { "title": "1. Acceptatie van voorwaarden", "content": "Door toegang te krijgen tot of gebruik te maken van de diensten van Secure Authorities, gaat u akkoord met deze algemene voorwaarden." },
+        "usage": { "title": "2. Gebruik van diensten", "content": "U gaat ermee akkoord onze diensten alleen voor wettige doeleinden te gebruiken en in overeenstemming met deze voorwaarden." },
+        "ip": { "title": "3. Intellectueel eigendom", "content": "Alle inhoud en materialen die beschikbaar zijn op onze diensten zijn eigendom van Secure Authorities of haar licentiegevers." }
+      }
+    },
+    "security": {
+      "title": "Beveiligingsengagement",
+      "lastUpdated": "Laatst bijgewerkt: 8 maart 2026",
+      "sections": {
+        "encryption": { "title": "1. Versleuteling", "content": "Alle gegevens worden in rust en tijdens transport versleuteld met behulp van industriestandaard protocollen." },
+        "infrastructure": { "title": "2. Infrastructuur", "content": "Onze infrastructuur wordt gehost in streng beveiligde datacenters met 24/7 monitoring." },
+        "compliance": { "title": "3. Compliance", "content": "Wij ondergaan regelmatig beveiligingsaudits door derden om naleving van wereldwijde normen te garanderen." }
+      }
+    }
+  },
+  "support": {
+    "docs": {
+      "title": "Documentatie",
+      "subtitle": "Alles wat u nodig heeft om te bouwen en op te schalen met Secure Authorities.",
+      "items": {
+        "guides": { "title": "Handleidingen voor beginners", "description": "Leer de basis en configureer uw eerste project." },
+        "api": { "title": "API-referentie", "description": "Gedetailleerde documentatie voor onze robuuste API's." },
+        "sdks": { "title": "SDK's & Tools", "description": "Officiële bibliotheken voor uw favoriete talen." }
+      }
+    },
+    "help": {
+      "title": "Helpcentrum",
+      "subtitle": "Vind antwoorden op veelgestelde vragen en krijg ondersteuning.",
+      "faqs": {
+        "title": "Veelgestelde vragen",
+        "q1": "Hoe reset ik mijn wachtwoord?",
+        "q2": "Hoe kan ik mijn factureringsgegevens bijwerken?",
+        "q3": "Wat is uw uptime SLA?",
+        "q4": "Biedt u aangepaste enterprise-plannen aan?"
+      },
+      "cta": {
+        "title": "Nog steeds hulp nodig?",
+        "subtitle": "Ons ondersteuningsteam is 24/7 beschikbaar om u te helpen.",
+        "button": "Contact opnemen met support"
+      }
+    },
+    "community": {
+      "title": "Community",
+      "subtitle": "Maak contact met andere ontwikkelaars en beveiligingsexperts.",
+      "items": {
+        "forums": { "title": "Forums", "description": "Neem deel aan de discussie en deel uw kennis." },
+        "events": { "title": "Evenementen", "description": "Aankomende webinars, workshops en meetups." },
+        "oss": { "title": "Open Source", "description": "Bekijk onze bijdragen aan de OSS-community." }
+      }
+    },
+    "status": {
+      "title": "Systeemstatus",
+      "subtitle": "Real-time updates over de prestaties van onze wereldwijde infrastructuur.",
+      "operational": "Operationeel",
+      "items": {
+        "api": "API-diensten",
+        "cloud": "Cloud-infrastructuur",
+        "messaging": "Berichten-gateway",
+        "dashboard": "Klantendashboard"
+      },
+      "uptime": "Uptime",
+      "sla": "99,99% maandelijks SLA"
+    }
+  },
+  "notFound": {
+    "title": "Pagina niet gevonden",
+    "description": "De pagina die u zoekt bestaat niet",
+    "goHome": "Ga naar home",
+    "goBack": "Ga terug"
+  },
+  "footer": {
+    "rights": "Alle rechten voorbehouden.",
+    "globalOffices": "Wereldwijde kantoren"
+  }
+}

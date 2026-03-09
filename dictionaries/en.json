@@ -1,0 +1,529 @@
+{
+  "navigation": {
+    "company": "Company",
+    "services": "Services",
+    "products": "Products",
+    "about": "About Us",
+    "leadership": "Leadership",
+    "careers": "Careers",
+    "contact": "Contact",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "getStarted": "Get Started"
+  },
+  "home": {
+    "hero": {
+      "title": "Secure Your Digital Future",
+      "subtitle": "Enterprise-grade cybersecurity and application development for global organizations.",
+      "cta": "View Services"
+    },
+    "stats": {
+      "clients": "Enterprise Clients",
+      "uptime": "Uptime SLA",
+      "countries": "Global Support",
+      "security": "Security Rating"
+    },
+    "dono": {
+      "label": "The Super App",
+      "title": "Dono",
+      "description": "The all-in-one super app for the modern enterprise. Communication, data management, and security in a single, seamless platform.",
+      "learnMore": "Learn more"
+    },
+    "shadow": {
+      "label": "Security Platform",
+      "title": "Shadow",
+      "description": "AI-powered threat detection and automated response. Protect your organization with real-time security intelligence.",
+      "learnMore": "Learn more"
+    },
+    "services": {
+      "title": "Development Services",
+      "subtitle": "Full-stack development expertise for web, mobile, and desktop applications",
+      "viewAll": "View all services",
+      "items": {
+        "web": {
+          "title": "Web Development",
+          "description": "Modern web applications built with React, Vue, and Angular"
+        },
+        "mobile": {
+          "title": "Mobile Apps",
+          "description": "Native iOS and Android applications"
+        },
+        "desktop": {
+          "title": "Desktop Software",
+          "description": "Cross-platform desktop applications"
+        },
+        "security": {
+          "title": "Cyber Security",
+          "description": "Comprehensive security solutions and audits"
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to get started?",
+      "subtitle": "Join 150+ global enterprises protecting their digital infrastructure with Secure Authorities",
+      "button": "Start Free Trial"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Built for Global Enterprises",
+      "subtitle": "Protecting the world's most demanding organizations with advanced security and elite engineering."
+    },
+    "mission": {
+      "label": "Our Mission",
+      "title": "Securing the Future",
+      "p1": "To empower organizations worldwide with cutting-edge security solutions and innovative application development services that drive growth and protect assets.",
+      "p2": "We believe in a secure digital future where businesses operate confidently with advanced security technologies and robust infrastructure."
+    },
+    "leadership": {
+      "label": "Leadership",
+      "title": "Expertise at Scale",
+      "cta": "Meet the full team"
+    },
+    "values": {
+      "label": "Our Values",
+      "title": "What Drives Us",
+      "items": {
+        "global": {
+          "title": "Global Reach",
+          "description": "Offices across 50+ countries with 24/7 localized support"
+        },
+        "team": {
+          "title": "Expert Team",
+          "description": "200+ certified professionals dedicated to excellence"
+        },
+        "leader": {
+          "title": "Industry Leader",
+          "description": "Award-winning innovation in security and development"
+        },
+        "client": {
+          "title": "Client First",
+          "description": "99% satisfaction rate with personalized solutions"
+        }
+      }
+    },
+    "history": {
+      "label": "Our History",
+      "title": "The Journey",
+      "milestones": {
+        "2010": {
+          "title": "Foundation",
+          "description": "Founded with a vision to revolutionize enterprise cybersecurity and application infrastructure."
+        },
+        "2015": {
+          "title": "Global Expansion",
+          "description": "Expanded operations to 10 countries, serving our first Fortune 500 clients in London and New York."
+        },
+        "2020": {
+          "title": "Product Innovation",
+          "description": "Launched the Dono and Shadow platforms, setting new benchmarks for cloud data and threat detection."
+        },
+        "2026": {
+          "title": "Industry Leadership",
+          "description": "Serving over 150+ enterprise clients globally as a market leader in secure application development."
+        }
+      }
+    },
+    "presence": {
+      "title": "Global Presence",
+      "subtitle": "Our specialized teams are distributed across major global hubs, providing seamless support and engineering excellence regardless of geography"
+    }
+  },
+  "leadership": {
+    "title": "Leadership",
+    "subtitle": "Meet the visionary team driving the future of enterprise cybersecurity and application development.",
+    "team": {
+      "alexander": {
+        "role": "Chief Executive Officer",
+        "bio": "Former cybersecurity lead at global financial institutions with 20+ years of experience in digital transformation."
+      },
+      "sarah": {
+        "role": "Chief Technology Officer",
+        "bio": "Expert in distributed systems and AI-powered security. Previously led engineering teams at top Silicon Valley firms."
+      },
+      "marcus": {
+        "role": "Chief Information Security Officer",
+        "bio": "Renowned expert in threat intelligence and incident response. Architect of the Shadow security platform."
+      }
+    }
+  },
+  "careers": {
+    "title": "Careers",
+    "subtitle": "Join a global team of experts building the next generation of security and application infrastructure.",
+    "benefits": {
+      "global": {
+        "title": "Global Impact",
+        "description": "Work on projects that protect the world's most critical digital infrastructure."
+      },
+      "team": {
+        "title": "Expert Team",
+        "description": "Collaborate with industry leaders in cybersecurity and software engineering."
+      },
+      "growth": {
+        "title": "Growth",
+        "description": "Accelerate your career with continuous learning and challenging opportunities."
+      }
+    },
+    "openPositions": "Open Positions",
+    "applyNow": "Apply Now"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Have a question or want to discuss a project? Our team is here to help.",
+    "info": {
+      "email": "Email",
+      "phone": "Phone",
+      "office": "Global Headquarters"
+    },
+    "form": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "password": "Password",
+      "message": "Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent! We'll get back to you shortly."
+    }
+  },
+  "products": {
+    "hero": {
+      "title": "Enterprise Products",
+      "subtitle": "Cloud and security platforms built for scale"
+    },
+    "dono": {
+      "features": {
+        "unified": {
+          "title": "Unified Ecosystem",
+          "description": "Connect all your business processes in one powerful super app."
+        },
+        "data": {
+          "title": "Data Intelligence",
+          "description": "Integrated cloud storage with real-time analytics and insights."
+        },
+        "messaging": {
+          "title": "Secure Messaging",
+          "description": "Enterprise-grade encrypted communication for your entire team."
+        },
+        "scaling": {
+          "title": "Instant Scaling",
+          "description": "Global infrastructure that grows with your organization."
+        },
+        "automation": {
+          "title": "Workflow Automation",
+          "description": "Streamline operations with built-in productivity tools."
+        },
+        "ready": {
+          "title": "Enterprise Ready",
+          "description": "Compliant with global standards and 99.99% uptime SLA."
+        }
+      },
+      "pricing": {
+        "title": "Dono Pricing",
+        "starter": {
+          "name": "Starter",
+          "price": "$49",
+          "features": [
+            "100 GB Storage",
+            "Up to 5 Users",
+            "Basic Analytics",
+            "Email Support"
+          ]
+        },
+        "professional": {
+          "name": "Professional",
+          "price": "$149",
+          "features": [
+            "1 TB Storage",
+            "Up to 25 Users",
+            "Advanced Analytics",
+            "24/7 Support",
+            "Integrations"
+          ]
+        },
+        "enterprise": {
+          "name": "Enterprise",
+          "price": "Custom",
+          "features": [
+            "Unlimited Storage",
+            "Unlimited Users",
+            "Enterprise Analytics",
+            "Dedicated Support",
+            "SLA"
+          ]
+        }
+      }
+    },
+    "shadow": {
+      "features": {
+        "ai": {
+          "title": "AI Detection",
+          "description": "Machine learning with 99.9% accuracy"
+        },
+        "response": {
+          "title": "Instant Response",
+          "description": "Automated threat neutralization"
+        },
+        "trust": {
+          "title": "Zero-Trust",
+          "description": "Enterprise-grade security architecture"
+        },
+        "intelligence": {
+          "title": "Intelligence",
+          "description": "Global threat analytics"
+        },
+        "compliance": {
+          "title": "Compliance",
+          "description": "GDPR, HIPAA reporting"
+        },
+        "monitoring": {
+          "title": "24/7 Monitoring",
+          "description": "SOC monitoring"
+        }
+      },
+      "pricing": {
+        "title": "Shadow Pricing",
+        "basic": {
+          "name": "Basic",
+          "price": "$299",
+          "features": [
+            "50 Endpoints",
+            "Real-time Monitoring",
+            "Threat Detection",
+            "Email Alerts"
+          ]
+        },
+        "advanced": {
+          "name": "Advanced",
+          "price": "$799",
+          "features": [
+            "500 Endpoints",
+            "AI Detection",
+            "Automated Response",
+            "24/7 SOC",
+            "Intelligence"
+          ]
+        },
+        "enterprise": {
+          "name": "Enterprise",
+          "price": "Custom",
+          "features": [
+            "Unlimited Endpoints",
+            "Custom AI",
+            "Dedicated SOC",
+            "Compliance Suite",
+            "SLA"
+          ]
+        }
+      }
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Development Services",
+      "subtitle": "Full-stack expertise across web, mobile, desktop, and security"
+    },
+    "items": {
+      "web": {
+        "title": "Web Development",
+        "description": "Modern, scalable web applications built with cutting-edge technologies",
+        "features": [
+          "React, Vue, and Angular",
+          "Progressive Web Apps",
+          "E-commerce platforms",
+          "API development"
+        ]
+      },
+      "mobile": {
+        "title": "Mobile Development",
+        "description": "Native and cross-platform mobile applications for iOS and Android",
+        "features": [
+          "Native iOS and Android",
+          "React Native development",
+          "Flutter applications",
+          "App Store optimization"
+        ]
+      },
+      "desktop": {
+        "title": "Desktop Development",
+        "description": "Cross-platform desktop applications for enterprise environments",
+        "features": [
+          "Electron applications",
+          "Native development",
+          "Cross-platform support",
+          "Enterprise integration"
+        ]
+      },
+      "security": {
+        "title": "Cyber Security",
+        "description": "Comprehensive security solutions protecting your digital infrastructure",
+        "features": [
+          "Threat detection",
+          "Penetration testing",
+          "Security compliance",
+          "Incident response"
+        ]
+      }
+    },
+    "process": {
+      "title": "Our Process",
+      "subtitle": "Proven methodology delivering exceptional results",
+      "steps": {
+        "discovery": {
+          "title": "Discovery",
+          "description": "Understanding requirements and defining goals"
+        },
+        "design": {
+          "title": "Design",
+          "description": "Creating intuitive user experiences"
+        },
+        "development": {
+          "title": "Development",
+          "description": "Building with agile methodology"
+        },
+        "launch": {
+          "title": "Launch",
+          "description": "Deploying with ongoing support"
+        }
+      }
+    },
+    "cta": {
+      "title": "Let's build together",
+      "subtitle": "Contact us to discuss your project and get a free consultation"
+    }
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last Updated: March 8, 2026",
+      "sections": {
+        "acceptance": {
+          "title": "1. Data Collection",
+          "content": "We collect information that you provide directly to us when you create an account, use our services, or communicate with us."
+        },
+        "use": {
+          "title": "2. Use of Information",
+          "content": "We use the information we collect to provide, maintain, and improve our services, and to develop new ones."
+        },
+        "sharing": {
+          "title": "3. Information Sharing",
+          "content": "We do not share your personal information with third parties except as described in this policy."
+        }
+      }
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "lastUpdated": "Last Updated: March 8, 2026",
+      "sections": {
+        "acceptance": {
+          "title": "1. Acceptance of Terms",
+          "content": "By accessing or using Secure Authorities services, you agree to be bound by these Terms of Service."
+        },
+        "usage": {
+          "title": "2. Use of Services",
+          "content": "You agree to use our services only for lawful purposes and in accordance with these terms."
+        },
+        "ip": {
+          "title": "3. Intellectual Property",
+          "content": "All content and materials available on our services are the property of Secure Authorities or its licensors."
+        }
+      }
+    },
+    "security": {
+      "title": "Security Commitment",
+      "lastUpdated": "Last Updated: March 8, 2026",
+      "sections": {
+        "encryption": {
+          "title": "1. Encryption",
+          "content": "All data is encrypted at rest and in transit using industry-standard protocols."
+        },
+        "infrastructure": {
+          "title": "2. Infrastructure",
+          "content": "Our infrastructure is hosted in highly secure data centers with 24/7 monitoring."
+        },
+        "compliance": {
+          "title": "3. Compliance",
+          "content": "We regularly undergo third-party security audits to ensure compliance with global standards."
+        }
+      }
+    }
+  },
+  "support": {
+    "docs": {
+      "title": "Documentation",
+      "subtitle": "Everything you need to build and scale with Secure Authorities.",
+      "items": {
+        "guides": {
+          "title": "Getting Started Guides",
+          "description": "Learn the basics and set up your first project."
+        },
+        "api": {
+          "title": "API Reference",
+          "description": "Detailed documentation for our robust APIs."
+        },
+        "sdks": {
+          "title": "SDKs & Tools",
+          "description": "Official libraries for your favorite languages."
+        }
+      }
+    },
+    "help": {
+      "title": "Help Center",
+      "subtitle": "Find answers to common questions and get support.",
+      "faqs": {
+        "title": "Frequently Asked Questions",
+        "q1": "How do I reset my password?",
+        "q2": "How can I update my billing info?",
+        "q3": "What is your uptime SLA?",
+        "q4": "Do you offer custom enterprise plans?"
+      },
+      "cta": {
+        "title": "Still need help?",
+        "subtitle": "Our support team is available 24/7 to assist you.",
+        "button": "Contact Support"
+      }
+    },
+    "community": {
+      "title": "Community",
+      "subtitle": "Connect with other developers and security experts.",
+      "items": {
+        "forums": {
+          "title": "Forums",
+          "description": "Join the discussion and share your knowledge."
+        },
+        "events": {
+          "title": "Events",
+          "description": "Upcoming webinars, workshops, and meetups."
+        },
+        "oss": {
+          "title": "Open Source",
+          "description": "Check out our contributions to the OSS community."
+        }
+      }
+    },
+    "status": {
+      "title": "System Status",
+      "subtitle": "Real-time updates on our global infrastructure performance.",
+      "operational": "Operational",
+      "items": {
+        "api": "API Services",
+        "cloud": "Cloud Infrastructure",
+        "messaging": "Messaging Gateway",
+        "dashboard": "Customer Dashboard"
+      },
+      "uptime": "Uptime",
+      "sla": "99.99% Monthly SLA"
+    }
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you're looking for doesn't exist",
+    "goHome": "Go Home",
+    "goBack": "Go Back"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "globalOffices": "Global Offices Worldwide"
+  }
+}
