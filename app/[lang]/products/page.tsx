@@ -2,14 +2,20 @@ import Link from "next/link";
 import { Cloud, Shield, Database, Lock, Zap, CheckCircle, BarChart } from "lucide-react";
 import { ImageWithFallback } from "../../components/figma/ImageWithFallback";
 import { getDictionary } from "../../../get-dictionary";
-import { type Locale } from "../../../i18n-config";
+import { i18n, type Locale } from "../../../i18n-config";
+
+export async function generateStaticParams() {
+  return i18n.locales.map((locale) => ({ lang: locale }));
+}
 
 export default async function Products({
   params,
 }: {
   params: Promise<{ lang: Locale }>;
 }) {
-  const { lang } = await params;
+  const resolvedParams = await params;
+  if (!resolvedParams) return null;
+  const { lang } = resolvedParams;
   const dict = await getDictionary(lang);
 
   return (

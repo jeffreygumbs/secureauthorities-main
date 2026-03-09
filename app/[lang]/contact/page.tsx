@@ -1,14 +1,20 @@
 import { Mail, Phone, MapPin } from "lucide-react";
 import { getDictionary } from "../../../get-dictionary";
-import { type Locale } from "../../../i18n-config";
+import { i18n, type Locale } from "../../../i18n-config";
 import ContactForm from "../../components/ContactForm";
+
+export async function generateStaticParams() {
+  return i18n.locales.map((locale) => ({ lang: locale }));
+}
 
 export default async function Contact({
   params,
 }: {
   params: Promise<{ lang: Locale }>;
 }) {
-  const { lang } = await params;
+  const resolvedParams = await params;
+  if (!resolvedParams) return null;
+  const { lang } = resolvedParams;
   const dict = await getDictionary(lang);
 
   return (
