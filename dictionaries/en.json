@@ -9,7 +9,10 @@
     "contact": "Contact",
     "signIn": "Sign In",
     "signUp": "Sign Up",
-    "getStarted": "Get Started"
+    "getStarted": "Get Started",
+    "support": "Support",
+    "legal": "Legal",
+    "language": "Language"
   },
   "home": {
     "hero": {
@@ -126,7 +129,14 @@
     },
     "presence": {
       "title": "Global Presence",
-      "subtitle": "Our specialized teams are distributed across major global hubs, providing seamless support and engineering excellence regardless of geography"
+      "subtitle": "Our specialized teams are distributed across major global hubs, providing seamless support and engineering excellence regardless of geography",
+      "regions": {
+        "northAmerica": "North America",
+        "europe": "Europe",
+        "asiaPacific": "Asia Pacific",
+        "middleEast": "Middle East",
+        "latinAmerica": "Latin America"
+      }
     }
   },
   "leadership": {
@@ -184,13 +194,31 @@
       "message": "Message",
       "send": "Send Message",
       "sending": "Sending...",
-      "success": "Message sent! We'll get back to you shortly."
+      "success": "Message sent! We'll get back to you shortly.",
+      "placeholders": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "john@example.com",
+        "message": "How can we help you?"
+      },
+      "subjects": {
+        "product": "Product Inquiry",
+        "support": "General Support",
+        "security": "Security Consultation",
+        "partnership": "Partnership"
+      },
+      "sendAnother": "Send Another Message"
     }
   },
   "products": {
     "hero": {
       "title": "Enterprise Products",
       "subtitle": "Cloud and security platforms built for scale"
+    },
+    "pricing": {
+      "mostPopular": "Most Popular",
+      "monthly": "mo",
+      "custom": "Custom"
     },
     "dono": {
       "features": {
@@ -525,5 +553,19 @@
   "footer": {
     "rights": "All rights reserved.",
     "globalOffices": "Global Offices Worldwide"
+  },
+  "auth": {
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "orContinueWith": "Or continue with",
+    "orSignUpWith": "Or sign up with",
+    "google": "Google",
+    "microsoft": "Microsoft",
+    "noAccount": "Don't have an account?",
+    "alreadyHaveAccount": "Already have an account?",
+    "demoNotice": "Demo page - No authentication performed",
+    "registrationNotice": "Demo page - No registration performed",
+    "termsAgreement": "By creating an account, you agree to our",
+    "and": "and"
   }
 }

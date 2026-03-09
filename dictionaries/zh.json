@@ -9,7 +9,10 @@
     "contact": "联系我们",
     "signIn": "登录",
     "signUp": "注册",
-    "getStarted": "立即开始"
+    "getStarted": "立即开始",
+    "support": "支持",
+    "legal": "法律",
+    "language": "语言"
   },
   "home": {
     "hero": {
@@ -94,7 +97,7 @@
         },
         "leader": {
           "title": "行业领导者",
-          "description": "在安全和开发领域屡获殊荣的创新"
+          "description": "在 security 和开发领域屡获殊荣的创新"
         },
         "client": {
           "title": "客户至上",
@@ -126,7 +129,14 @@
     },
     "presence": {
       "title": "全球布局",
-      "subtitle": "我们的专业团队分布在全球主要枢纽，无论地域如何，都能提供无缝支持和卓越工程。"
+      "subtitle": "我们的专业团队分布在全球主要枢纽，无论地域如何，都能提供无缝支持和卓越工程。",
+      "regions": {
+        "northAmerica": "北美",
+        "europe": "欧洲",
+        "asiaPacific": "亚太地区",
+        "middleEast": "中东",
+        "latinAmerica": "拉丁美洲"
+      }
     }
   },
   "leadership": {
@@ -184,7 +194,20 @@
       "message": "留言内容",
       "send": "发送消息",
       "sending": "发送中...",
-      "success": "消息已发送！我们会尽快与您联系。"
+      "success": "消息已发送！我们会尽快与您联系。",
+      "placeholders": {
+        "firstName": "张",
+        "lastName": "三",
+        "email": "zhangsan@example.com",
+        "message": "我们能为您提供什么帮助？"
+      },
+      "subjects": {
+        "product": "产品咨询",
+        "support": "常规支持",
+        "security": "安全咨询",
+        "partnership": "合作伙伴"
+      },
+      "sendAnother": "发送另一条消息"
     }
   },
   "products": {
@@ -192,74 +215,205 @@
       "title": "企业级产品",
       "subtitle": "为规模化设计的云和安全平台"
     },
+    "pricing": {
+      "mostPopular": "最受欢迎",
+      "monthly": "月",
+      "custom": "定制"
+    },
     "dono": {
       "features": {
-        "unified": { "title": "统一生态系统", "description": "在一个强大的超级应用中连接您的所有业务流程。" },
-        "data": { "title": "数据智能", "description": "集成云存储，提供实时分析和洞察。" },
-        "messaging": { "title": "安全消息", "description": "为您的整个团队提供企业级加密通信。" },
-        "scaling": { "title": "即时扩展", "description": "随组织共同成长的全球基础设施。" },
-        "automation": { "title": "工作流自动化", "description": "通过内置生产力工具简化操作。" },
-        "ready": { "title": "企业就绪", "description": "符合全球标准和 99.99% 的在线率协议。" }
+        "unified": {
+          "title": "统一生态系统",
+          "description": "在一个强大的超级应用中连接您的所有业务流程。"
+        },
+        "data": {
+          "title": "数据智能",
+          "description": "集成云存储，提供实时分析和洞察。"
+        },
+        "messaging": {
+          "title": "安全消息",
+          "description": "为您的整个团队提供企业级加密通信。"
+        },
+        "scaling": {
+          "title": "即时扩展",
+          "description": "随组织共同成长的全球基础设施。"
+        },
+        "automation": {
+          "title": "工作流自动化",
+          "description": "通过内置生产力工具简化操作。"
+        },
+        "ready": {
+          "title": "企业就绪",
+          "description": "符合全球标准和 99.99% 的在线率协议。"
+        }
       },
       "pricing": {
         "title": "Dono 定价",
-        "starter": { "name": "入门版", "price": "¥349", "features": ["100 GB 存储", "最多 5 个用户", "基础分析", "邮件支持"] },
-        "professional": { "name": "专业版", "price": "¥1,049", "features": ["1 TB 存储", "最多 25 个用户", "高级分析", "24/7 支持", "系统集成"] },
-        "enterprise": { "name": "企业版", "price": "定制", "features": ["无限存储", "无限用户", "企业级分析", "专属支持", "服务等级协议"] }
+        "starter": {
+          "name": "入门版",
+          "price": "¥349",
+          "features": [
+            "100 GB 存储",
+            "最多 5 个用户",
+            "基础分析",
+            "邮件支持"
+          ]
+        },
+        "professional": {
+          "name": "专业版",
+          "price": "¥1,049",
+          "features": [
+            "1 TB 存储",
+            "最多 25 个用户",
+            "高级分析",
+            "24/7 支持",
+            "系统集成"
+          ]
+        },
+        "enterprise": {
+          "name": "企业版",
+          "price": "定制",
+          "features": [
+            "无限存储",
+            "无限用户",
+            "企业级分析",
+            "专属支持",
+            "服务等级协议"
+          ]
+        }
       }
     },
     "shadow": {
       "features": {
-        "ai": { "title": "人工智能检测", "description": "准确率高达 99.9% 的机器学习技术" },
-        "response": { "title": "即时响应", "description": "自动化的威胁中和" },
-        "trust": { "title": "零信任", "description": "企业级安全架构" },
-        "intelligence": { "title": "威胁情报", "description": "全球威胁分析" },
-        "compliance": { "title": "合规性", "description": "GDPR、HIPAA 报告" },
-        "monitoring": { "title": "24/7 监控", "description": "SOC 监控服务" }
+        "ai": {
+          "title": "人工智能检测",
+          "description": "准确率高达 99.9% 的机器学习技术"
+        },
+        "response": {
+          "title": "即时响应",
+          "description": "自动化的威胁中和"
+        },
+        "trust": {
+          "title": "零信任",
+          "description": "企业级安全架构"
+        },
+        "intelligence": {
+          "title": "威胁情报",
+          "description": "全球威胁分析"
+        },
+        "compliance": {
+          "title": "合规性",
+          "description": "GDPR、HIPAA 报告"
+        },
+        "monitoring": {
+          "title": "24/7 监控",
+          "description": "SOC 监控服务"
+        }
       },
       "pricing": {
         "title": "Shadow 定价",
-        "basic": { "name": "基础版", "price": "¥2,099", "features": ["50 个端点", "实时监控", "威胁检测", "邮件告警"] },
-        "advanced": { "name": "高级版", "price": "¥5,599", "features": ["500 个端点", "人工智能检测", "自动响应", "24/7 SOC", "威胁情报"] },
-        "enterprise": { "name": "企业版", "price": "定制", "features": ["无限端点", "定制化人工智能", "专属 SOC", "合规套件", "服务等级协议"] }
+        "basic": {
+          "name": "基础版",
+          "price": "¥2,099",
+          "features": [
+            "50 个端点",
+            "实时监控",
+            "威胁检测",
+            "邮件告警"
+          ]
+        },
+        "advanced": {
+          "name": "高级版",
+          "price": "¥5,599",
+          "features": [
+            "500 个端点",
+            "人工智能检测",
+            "自动响应",
+            "24/7 SOC",
+            "威胁情报"
+          ]
+        },
+        "enterprise": {
+          "name": "企业版",
+          "price": "定制",
+          "features": [
+            "无限端点",
+            "定制化人工智能",
+            "专属 SOC",
+            "合规套件",
+            "服务等级协议"
+          ]
+        }
       }
     }
   },
   "services": {
     "hero": {
       "title": "开发服务",
-      "subtitle": "涵盖 Web、移动、桌面和安全的全栈专业知识"
+      "subtitle": "涵盖 Web、移动和桌面应用的全栈专业知识"
     },
     "items": {
       "web": {
         "title": "Web 开发",
         "description": "采用尖端技术构建的现代化、可扩展的 Web 应用程序",
-        "features": ["React, Vue 和 Angular", "渐进式 Web 应用 (PWA)", "电子商务平台", "API 开发"]
+        "features": [
+          "React, Vue 和 Angular",
+          "渐进式 Web 应用 (PWA)",
+          "电子商务平台",
+          "API 开发"
+        ]
       },
       "mobile": {
         "title": "移动开发",
         "description": "适用于 iOS 和 Android 的原生和跨平台移动应用",
-        "features": ["原生 iOS 和 Android", "React Native 开发", "Flutter 应用程序", "应用商店优化 (ASO)"]
+        "features": [
+          "原生 iOS 和 Android",
+          "React Native 开发",
+          "Flutter 应用程序",
+          "应用商店优化 (ASO)"
+        ]
       },
       "desktop": {
         "title": "桌面开发",
         "description": "适用于企业环境的跨平台桌面应用程序",
-        "features": ["Electron 应用程序", "原生开发", "跨平台支持", "企业系统集成"]
+        "features": [
+          "Electron 应用程序",
+          "原生开发",
+          "跨平台支持",
+          "企业系统集成"
+        ]
       },
       "security": {
         "title": "网络安全",
         "description": "保护您的数字基础设施的全面安全解决方案",
-        "features": ["威胁检测", "渗透测试", "安全合规", "事件响应"]
+        "features": [
+          "威胁检测",
+          "渗透测试",
+          "安全合规",
+          "事件响应"
+        ]
       }
     },
     "process": {
       "title": "我们的流程",
       "subtitle": "久经考验的开发方法，交付卓越成果",
       "steps": {
-        "discovery": { "title": "需求调研", "description": "深入了解需求并确定目标" },
-        "design": { "title": "设计方案", "description": "打造直观的用户体验" },
-        "development": { "title": "开发实施", "description": "采用敏捷开发模式" },
-        "launch": { "title": "上线运行", "description": "部署并提供持续支持" }
+        "discovery": {
+          "title": "需求调研",
+          "description": "深入了解需求并确定目标"
+        },
+        "design": {
+          "title": "设计方案",
+          "description": "打造直观的用户体验"
+        },
+        "development": {
+          "title": "开发实施",
+          "description": "采用敏捷开发模式"
+        },
+        "launch": {
+          "title": "上线运行",
+          "description": "部署并提供持续支持"
+        }
       }
     },
     "cta": {
@@ -272,27 +426,54 @@
       "title": "隐私政策",
       "lastUpdated": "最后更新：2026年3月8日",
       "sections": {
-        "acceptance": { "title": "1. 数据收集", "content": "我们会在您创建账户、使用我们的服务或与我们沟通时，收集您直接提供给我们的信息。" },
-        "use": { "title": "2. 信息使用", "content": "我们将收集的信息用于提供、维护和改进我们的服务，并开发新功能。" },
-        "sharing": { "title": "3. 信息共享", "content": "除非本政策另有说明，否则我们不会与第三方共享您的个人信息。" }
+        "acceptance": {
+          "title": "1. 数据收集",
+          "content": "我们会在您创建账户、使用我们的服务或与我们沟通时，收集您直接提供给我们的信息。"
+        },
+        "use": {
+          "title": "2. 信息使用",
+          "content": "我们将收集的信息用于提供、维护和改进我们的服务，并开发新功能。"
+        },
+        "sharing": {
+          "title": "3. 信息共享",
+          "content": "除非本政策另有说明，否则我们不会与第三方共享您的个人信息。"
+        }
       }
     },
     "terms": {
       "title": "服务条款",
       "lastUpdated": "最后更新：2026年3月8日",
       "sections": {
-        "acceptance": { "title": "1. 条款确认", "content": "访问或使用 Secure Authorities 的服务，即表示您同意受这些服务条款的约束。" },
-        "usage": { "title": "2. 服务使用", "content": "您同意仅出于合法目的并按照本条款使用我们的服务。" },
-        "ip": { "title": "3. 知识产权", "content": "我们服务中提供的所有内容和材料均属于 Secure Authorities 或其许可方所有。" }
+        "acceptance": {
+          "title": "1. 条款确认",
+          "content": "访问或使用 Secure Authorities 的服务，即表示您同意受这些服务条款的约束。"
+        },
+        "usage": {
+          "title": "2. 服务使用",
+          "content": "您同意仅出于合法目的并按照本条款使用我们的服务。"
+        },
+        "ip": {
+          "title": "3. 知识产权",
+          "content": "我们服务中提供的所有内容和材料均属于 Secure Authorities 或其许可方所有。"
+        }
       }
     },
     "security": {
       "title": "安全承诺",
       "lastUpdated": "最后更新：2026年3月8日",
       "sections": {
-        "encryption": { "title": "1. 数据加密", "content": "所有静态和传输中的数据均使用行业标准协议进行加密。" },
-        "infrastructure": { "title": "2. 基础设施", "content": "我们的基础设施托管在高度安全的数据中心，并提供 24/7 监控。" },
-        "compliance": { "title": "3. 合规性", "content": "我们定期接受第三方安全审计，以确保符合全球标准。" }
+        "encryption": {
+          "title": "1. 数据加密",
+          "content": "所有静态和传输中的数据均使用行业标准协议进行加密。"
+        },
+        "infrastructure": {
+          "title": "2. 基础设施",
+          "content": "我们的基础设施托管在高度安全的数据中心，并提供 24/7 监控。"
+        },
+        "compliance": {
+          "title": "3. 合规性",
+          "content": "我们定期接受第三方安全审计，以确保符合全球标准。"
+        }
       }
     }
   },
@@ -301,9 +482,18 @@
       "title": "文档中心",
       "subtitle": "使用 Secure Authorities 构建和扩展所需的一切资源。",
       "items": {
-        "guides": { "title": "入门指南", "description": "学习基础知识并设置您的第一个项目。" },
-        "api": { "title": "API 参考", "description": "我们强大 API 的详细技术文档。" },
-        "sdks": { "title": "SDK 和工具", "description": "适用于您常用编程语言的官方库。" }
+        "guides": {
+          "title": "入门指南",
+          "description": "学习基础知识并设置您的第一个项目。"
+        },
+        "api": {
+          "title": "API 参考",
+          "description": "我们强大 API 的详细技术文档。"
+        },
+        "sdks": {
+          "title": "SDK 和工具",
+          "description": "适用于您常用编程语言的官方库。"
+        }
       }
     },
     "help": {
@@ -326,9 +516,18 @@
       "title": "社区",
       "subtitle": "与其他开发者和安全专家建立联系。",
       "items": {
-        "forums": { "title": "论坛", "description": "参与讨论、分享见解并获取社区帮助。" },
-        "events": { "title": "活动", "description": "即将举行的在线研讨会、工作坊和见面会。" },
-        "oss": { "title": "开源项目", "description": "查看我们对开源社区的贡献。" }
+        "forums": {
+          "title": "论坛",
+          "description": "参与讨论、分享见解并获取社区帮助。"
+        },
+        "events": {
+          "title": "活动",
+          "description": "即将举行的在线研讨会、工作坊和见面会。"
+        },
+        "oss": {
+          "title": "开源项目",
+          "description": "查看我们对开源社区的贡献。"
+        }
       }
     },
     "status": {
@@ -354,5 +553,19 @@
   "footer": {
     "rights": "版权所有。",
     "globalOffices": "全球办事处"
+  },
+  "auth": {
+    "rememberMe": "记住我",
+    "forgotPassword": "忘记密码？",
+    "orContinueWith": "或继续使用",
+    "orSignUpWith": "或注册使用",
+    "google": "Google",
+    "microsoft": "Microsoft",
+    "noAccount": "没有账户？",
+    "alreadyHaveAccount": "已经有账户了？",
+    "demoNotice": "演示页面 - 未执行身份验证",
+    "registrationNotice": "演示页面 - 未执行注册",
+    "termsAgreement": "创建账户即表示您同意我们的",
+    "and": "和"
   }
 }

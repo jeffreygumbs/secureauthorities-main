@@ -9,7 +9,10 @@
     "contact": "Contacto",
     "signIn": "Iniciar Sesión",
     "signUp": "Registrarse",
-    "getStarted": "Empezar"
+    "getStarted": "Empezar",
+    "support": "Soporte",
+    "legal": "Legal",
+    "language": "Idioma"
   },
   "home": {
     "hero": {
@@ -126,7 +129,14 @@
     },
     "presence": {
       "title": "Presencia Global",
-      "subtitle": "Nuestros equipos especializados están distribuidos en los principales centros globales, brindando soporte fluido y excelencia en ingeniería independientemente de la geografía."
+      "subtitle": "Nuestros equipos especializados están distribuidos en los principales centros globales, brindando soporte fluido y excelencia en ingeniería independientemente de la geografía.",
+      "regions": {
+        "northAmerica": "Norteamérica",
+        "europe": "Europa",
+        "asiaPacific": "Asia Pacífico",
+        "middleEast": "Medio Oriente",
+        "latinAmerica": "Latinoamérica"
+      }
     }
   },
   "leadership": {
@@ -184,13 +194,31 @@
       "message": "Mensaje",
       "send": "Enviar mensaje",
       "sending": "Enviando...",
-      "success": "¡Mensaje enviado! Nos pondremos en contacto pronto."
+      "success": "¡Mensaje enviado! Nos pondremos en contacto pronto.",
+      "placeholders": {
+        "firstName": "Juan",
+        "lastName": "Pérez",
+        "email": "juan.perez@example.com",
+        "message": "¿Cómo podemos ayudarle?"
+      },
+      "subjects": {
+        "product": "Consulta de producto",
+        "support": "Soporte general",
+        "security": "Consulta de seguridad",
+        "partnership": "Alianza"
+      },
+      "sendAnother": "Enviar otro mensaje"
     }
   },
   "products": {
     "hero": {
       "title": "Productos Empresariales",
       "subtitle": "Plataformas de nube y seguridad creadas para escalar"
+    },
+    "pricing": {
+      "mostPopular": "Más popular",
+      "monthly": "mes",
+      "custom": "Personalizado"
     },
     "dono": {
       "features": {
@@ -525,5 +553,19 @@
   "footer": {
     "rights": "Todos los derechos reservados.",
     "globalOffices": "Oficinas Globales en Todo el Mundo"
+  },
+  "auth": {
+    "rememberMe": "Recordarme",
+    "forgotPassword": "¿Olvidó su contraseña?",
+    "orContinueWith": "O continuar con",
+    "orSignUpWith": "O registrarse con",
+    "google": "Google",
+    "microsoft": "Microsoft",
+    "noAccount": "¿No tiene una cuenta?",
+    "alreadyHaveAccount": "¿Ya tiene una cuenta?",
+    "demoNotice": "Página de demostración - No se realiza autenticación",
+    "registrationNotice": "Página de demostración - No se realiza registro",
+    "termsAgreement": "Al crear una cuenta, acepta nuestros",
+    "and": "y"
   }
 }

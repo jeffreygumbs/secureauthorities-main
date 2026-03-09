@@ -137,12 +137,12 @@ export default async function Products({
                 }`}
               >
                 {plan.popular && (
-                  <div className="text-xs text-[#f1b24b] mb-4 tracking-wide uppercase font-bold">Most Popular</div>
+                  <div className="text-xs text-[#f1b24b] mb-4 tracking-wide uppercase font-bold">{dict.products.pricing.mostPopular}</div>
                 )}
                 <h4 className="text-2xl mb-2 text-black font-bold">{plan.name}</h4>
                 <div className="text-5xl mb-8 text-black tracking-tight font-bold">
                   {plan.price}
-                  {plan.price !== "Custom" && plan.price !== "Personalizado" && <span className="text-lg text-black/50">/mo</span>}
+                  {plan.price !== dict.products.pricing.custom && <span className="text-lg text-black/50">/{dict.products.pricing.monthly}</span>}
                 </div>
                 <ul className="space-y-3 mb-8">
                   {plan.features.map((feature: string, featureIndex: number) => (
@@ -270,12 +270,12 @@ export default async function Products({
                 }`}
               >
                 {plan.popular && (
-                  <div className="text-xs text-[#d67d4c] mb-4 tracking-wide uppercase font-bold">Most Popular</div>
+                  <div className="text-xs text-[#d67d4c] mb-4 tracking-wide uppercase font-bold">{dict.products.pricing.mostPopular}</div>
                 )}
                 <h4 className="text-2xl mb-2 text-black font-bold">{plan.name}</h4>
                 <div className="text-5xl mb-8 text-black tracking-tight font-bold">
                   {plan.price}
-                  {plan.price !== "Custom" && plan.price !== "Personalizado" && <span className="text-lg text-black/50">/mo</span>}
+                  {plan.price !== dict.products.pricing.custom && <span className="text-lg text-black/50">/{dict.products.pricing.monthly}</span>}
                 </div>
                 <ul className="space-y-3 mb-8">
                   {plan.features.map((feature: string, featureIndex: number) => (

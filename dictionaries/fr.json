@@ -9,7 +9,10 @@
     "contact": "Contact",
     "signIn": "Se connecter",
     "signUp": "S'inscrire",
-    "getStarted": "Démarrer"
+    "getStarted": "Démarrer",
+    "support": "Support",
+    "legal": "Juridique",
+    "language": "Langue"
   },
   "home": {
     "hero": {
@@ -126,7 +129,14 @@
     },
     "presence": {
       "title": "Présence mondiale",
-      "subtitle": "Nos équipes spécialisées sont réparties dans les principaux hubs mondiaux, offrant un support fluide et une excellence en ingénierie quelle que soit la géographie."
+      "subtitle": "Nos équipes spécialisées sont réparties dans les principaux hubs mondiaux, offrant un support fluide et une excellence en ingénierie quelle que soit la géographie.",
+      "regions": {
+        "northAmerica": "Amérique du Nord",
+        "europe": "Europe",
+        "asiaPacific": "Asie-Pacifique",
+        "middleEast": "Moyen-Orient",
+        "latinAmerica": "Amérique latine"
+      }
     }
   },
   "leadership": {
@@ -184,7 +194,20 @@
       "message": "Message",
       "send": "Envoyer le message",
       "sending": "Envoi en cours...",
-      "success": "Message envoyé ! Nous vous recontacterons sous peu."
+      "success": "Message envoyé ! Nous vous recontacterons sous peu.",
+      "placeholders": {
+        "firstName": "Jean",
+        "lastName": "Dupont",
+        "email": "jean.dupont@example.com",
+        "message": "Comment pouvons-nous vous aider ?"
+      },
+      "subjects": {
+        "product": "Demande de produit",
+        "support": "Support général",
+        "security": "Consultation sécurité",
+        "partnership": "Partenariat"
+      },
+      "sendAnother": "Envoyer un autre message"
     }
   },
   "products": {
@@ -192,36 +215,135 @@
       "title": "Produits entreprise",
       "subtitle": "Plateformes cloud et de sécurité conçues pour l'échelle"
     },
+    "pricing": {
+      "mostPopular": "Le plus populaire",
+      "monthly": "mois",
+      "custom": "Sur mesure"
+    },
     "dono": {
       "features": {
-        "unified": { "title": "Écosystème unifié", "description": "Connectez tous vos processus métier dans une seule super application puissante." },
-        "data": { "title": "Intelligence des données", "description": "Stockage cloud intégré avec analyses et informations en temps réel." },
-        "messaging": { "title": "Messagerie sécurisée", "description": "Communication cryptée de classe entreprise pour toute votre équipe." },
-        "scaling": { "title": "Mise à l'échelle instantanée", "description": "Infrastructure mondiale qui grandit avec votre organisation." },
-        "automation": { "title": "Automatisation du workflow", "description": "Simplifiez les opérations grâce à des outils de productivité intégrés." },
-        "ready": { "title": "Prêt pour l'entreprise", "description": "Conforme aux normes mondiales et SLA de disponibilité mensuelle de 99,99 %." }
+        "unified": {
+          "title": "Écosystème unifié",
+          "description": "Connectez tous vos processus métier dans une seule super application puissante."
+        },
+        "data": {
+          "title": "Intelligence des données",
+          "description": "Stockage cloud intégré avec analyses et informations en temps réel."
+        },
+        "messaging": {
+          "title": "Messagerie sécurisée",
+          "description": "Communication cryptée de classe entreprise pour toute votre équipe."
+        },
+        "scaling": {
+          "title": "Mise à l'échelle instantanée",
+          "description": "Infrastructure mondiale qui grandit avec votre organisation."
+        },
+        "automation": {
+          "title": "Automatisation du workflow",
+          "description": "Simplifiez les opérations grâce à des outils de productivité intégrés."
+        },
+        "ready": {
+          "title": "Prêt pour l'entreprise",
+          "description": "Conforme aux normes mondiales et SLA de disponibilité mensuelle de 99,99 %."
+        }
       },
       "pricing": {
         "title": "Tarification Dono",
-        "starter": { "name": "Starter", "price": "49 €", "features": ["100 Go de stockage", "Jusqu'à 5 utilisateurs", "Analyses de base", "Support par e-mail"] },
-        "professional": { "name": "Professional", "price": "149 €", "features": ["1 To de stockage", "Jusqu'à 25 utilisateurs", "Analyses avancées", "Support 24/7", "Intégrations"] },
-        "enterprise": { "name": "Enterprise", "price": "Sur mesure", "features": ["Stockage illimité", "Utilisateurs illimités", "Analyses d'entreprise", "Support dédié", "SLA"] }
+        "starter": {
+          "name": "Starter",
+          "price": "49 €",
+          "features": [
+            "100 Go de stockage",
+            "Jusqu'à 5 utilisateurs",
+            "Analyses de base",
+            "Support par e-mail"
+          ]
+        },
+        "professional": {
+          "name": "Professional",
+          "price": "149 €",
+          "features": [
+            "1 To de stockage",
+            "Jusqu'à 25 utilisateurs",
+            "Analyses avancées",
+            "Support 24/7",
+            "Intégrations"
+          ]
+        },
+        "enterprise": {
+          "name": "Enterprise",
+          "price": "Sur mesure",
+          "features": [
+            "Stockage illimité",
+            "Utilisateurs illimités",
+            "Analyses d'entreprise",
+            "Support dédié",
+            "SLA"
+          ]
+        }
       }
     },
     "shadow": {
       "features": {
-        "ai": { "title": "Détection IA", "description": "Apprentissage automatique avec une précision de 99,9 %" },
-        "response": { "title": "Réponse immédiate", "description": "Neutralisation automatisée des menaces" },
-        "trust": { "title": "Zero-Trust", "description": "Architecture de sécurité de classe entreprise" },
-        "intelligence": { "title": "Intelligence", "description": "Analyse globale des menaces" },
-        "compliance": { "title": "Conformité", "description": "Rapports GDPR, HIPAA" },
-        "monitoring": { "title": "Surveillance 24/7", "description": "Surveillance SOC" }
+        "ai": {
+          "title": "Détection IA",
+          "description": "Apprentissage automatique avec une précision de 99,9 %"
+        },
+        "response": {
+          "title": "Réponse immédiate",
+          "description": "Neutralisation automatisée des menaces"
+        },
+        "trust": {
+          "title": "Zero-Trust",
+          "description": "Architecture de sécurité de classe entreprise"
+        },
+        "intelligence": {
+          "title": "Intelligence",
+          "description": "Analyse globale des menaces"
+        },
+        "compliance": {
+          "title": "Conformité",
+          "description": "Rapports GDPR, HIPAA"
+        },
+        "monitoring": {
+          "title": "Surveillance 24/7",
+          "description": "Surveillance SOC"
+        }
       },
       "pricing": {
         "title": "Tarification Shadow",
-        "basic": { "name": "Basic", "price": "299 €", "features": ["50 points de terminaison", "Surveillance en temps réel", "Détection des menaces", "Alertes par e-mail"] },
-        "advanced": { "name": "Advanced", "price": "799 €", "features": ["500 points de terminaison", "Détection IA", "Réponse automatisée", "SOC 24/7", "Intelligence"] },
-        "enterprise": { "name": "Enterprise", "price": "Sur mesure", "features": ["Points de terminaison illimités", "IA personnalisée", "SOC dédié", "Suite de conformité", "SLA"] }
+        "basic": {
+          "name": "Basic",
+          "price": "299 €",
+          "features": [
+            "50 points de terminaison",
+            "Surveillance en temps réel",
+            "Détection des menaces",
+            "Alertes par e-mail"
+          ]
+        },
+        "advanced": {
+          "name": "Advanced",
+          "price": "799 €",
+          "features": [
+            "500 points de terminaison",
+            "Détection IA",
+            "Réponse automatisée",
+            "SOC 24/7",
+            "Intelligence"
+          ]
+        },
+        "enterprise": {
+          "name": "Enterprise",
+          "price": "Sur mesure",
+          "features": [
+            "Points de terminaison illimités",
+            "IA personnalisée",
+            "SOC dédié",
+            "Suite de conformité",
+            "SLA"
+          ]
+        }
       }
     }
   },
@@ -234,32 +356,64 @@
       "web": {
         "title": "Développement Web",
         "description": "Applications web modernes et évolutives construites avec des technologies de pointe",
-        "features": ["React, Vue et Angular", "Progressive Web Apps", "Plateformes e-commerce", "Développement d'API"]
+        "features": [
+          "React, Vue et Angular",
+          "Progressive Web Apps",
+          "Plateformes e-commerce",
+          "Développement d'API"
+        ]
       },
       "mobile": {
         "title": "Développement mobile",
         "description": "Applications mobiles natives et multiplateformes pour iOS et Android",
-        "features": ["iOS et Android natifs", "Développement React Native", "Applications Flutter", "Optimisation App Store"]
+        "features": [
+          "iOS et Android natifs",
+          "Développement React Native",
+          "Applications Flutter",
+          "Optimisation App Store"
+        ]
       },
       "desktop": {
         "title": "Développement de bureau",
         "description": "Applications de bureau multiplateformes pour les environnements d'entreprise",
-        "features": ["Applications Electron", "Développement natif", "Support multiplateforme", "Intégration d'entreprise"]
+        "features": [
+          "Applications Electron",
+          "Développement natif",
+          "Support multiplateforme",
+          "Intégration d'entreprise"
+        ]
       },
       "security": {
         "title": "Cybersécurité",
         "description": "Solutions de sécurité complètes protégeant votre infrastructure numérique",
-        "features": ["Détection des menaces", "Tests d'intrusion", "Conformité de sécurité", "Réponse aux incidents"]
+        "features": [
+          "Détection des menaces",
+          "Tests d'intrusion",
+          "Conformité de sécurité",
+          "Réponse aux incidents"
+        ]
       }
     },
     "process": {
       "title": "Notre processus",
       "subtitle": "Méthodologie éprouvée délivrant des résultats exceptionnels",
       "steps": {
-        "discovery": { "title": "Découverte", "description": "Comprendre les exigences et définir les objectifs" },
-        "design": { "title": "Conception", "description": "Créer des expériences utilisateur intuitives" },
-        "development": { "title": "Développement", "description": "Construire avec la méthodologie agile" },
-        "launch": { "title": "Lancement", "description": "Déploiement avec support continu" }
+        "discovery": {
+          "title": "Découverte",
+          "description": "Comprendre les exigences et définir les objectifs"
+        },
+        "design": {
+          "title": "Conception",
+          "description": "Créer des expériences utilisateur intuitives"
+        },
+        "development": {
+          "title": "Développement",
+          "description": "Construire avec la méthodologie agile"
+        },
+        "launch": {
+          "title": "Lancement",
+          "description": "Déploiement avec support continu"
+        }
       }
     },
     "cta": {
@@ -272,27 +426,54 @@
       "title": "Politique de confidentialité",
       "lastUpdated": "Dernière mise à jour : 8 mars 2026",
       "sections": {
-        "acceptance": { "title": "1. Collecte de données", "content": "Nous recueillons les informations que vous nous fournissez directement lorsque vous créez un compte, utilisez nos services ou communiquez avec nous." },
-        "use": { "title": "2. Utilisation des informations", "content": "Nous utilisons les informations que nous recueillons pour fournir, maintenir et améliorer nos services, et pour en développer de nouveaux." },
-        "sharing": { "title": "3. Partage d'informations", "content": "Nous ne partageons pas vos informations personnelles avec des tiers, sauf description contraire dans cette politique." }
+        "acceptance": {
+          "title": "1. Collecte de données",
+          "content": "Nous recueillons les informations que vous nous fournissez directement lorsque vous créez un compte, utilisez nos services ou communiquez avec nous."
+        },
+        "use": {
+          "title": "2. Utilisation des informations",
+          "content": "Nous utilisons les informations que nous recueillons pour fournir, maintenir et améliorer nos services, et pour en développer de nouveaux."
+        },
+        "sharing": {
+          "title": "3. Partage d'informations",
+          "content": "Nous ne partageons pas vos informations personnelles avec des tiers, sauf description contraire dans cette politique."
+        }
       }
     },
     "terms": {
       "title": "Conditions d'utilisation",
       "lastUpdated": "Dernière mise à jour : 8 mars 2026",
       "sections": {
-        "acceptance": { "title": "1. Acceptation des conditions", "content": "En accédant ou en utilisant les services de Secure Authorities, vous acceptez d'être lié par ces conditions d'utilisation." },
-        "usage": { "title": "2. Utilisation des services", "content": "Vous acceptez d'utiliser nos services uniquement à des fins licites et conformément à ces conditions." },
-        "ip": { "title": "3. Propriété intellectuelle", "content": "Tous les contenus et matériels disponibles sur nos services sont la propriété de Secure Authorities ou de ses concédants." }
+        "acceptance": {
+          "title": "1. Acceptation des conditions",
+          "content": "En accédant ou en utilisant les services de Secure Authorities, vous acceptez d'être lié par ces conditions d'utilisation."
+        },
+        "usage": {
+          "title": "2. Utilisation des services",
+          "content": "Vous acceptez d'utiliser nos services uniquement à des fins licites et conformément à ces conditions."
+        },
+        "ip": {
+          "title": "3. Propriété intellectuelle",
+          "content": "Tous les contenus et matériels disponibles sur nos services sont la propriété de Secure Authorities ou de ses concédants."
+        }
       }
     },
     "security": {
       "title": "Engagement de sécurité",
       "lastUpdated": "Dernière mise à jour : 8 mars 2026",
       "sections": {
-        "encryption": { "title": "1. Cryptage", "content": "Toutes les données sont cryptées au repos et en transit à l'aide de protocoles conformes aux standards de l'industrie." },
-        "infrastructure": { "title": "2. Infrastructure", "content": "Notre infrastructure est hébergée dans des centres de données hautement sécurisés avec une surveillance 24/7." },
-        "compliance": { "title": "3. Conformité", "content": "Nous nous soumetons régulièrement à des audits de sécurité tiers pour garantir la conformité aux normes mondiales." }
+        "encryption": {
+          "title": "1. Cryptage",
+          "content": "Toutes les données sont cryptées au repos et en transit à l'aide de protocoles conformes aux standards de l'industrie."
+        },
+        "infrastructure": {
+          "title": "2. Infrastructure",
+          "content": "Notre infrastructure est hébergée dans des centres de données hautement sécurisés avec une surveillance 24/7."
+        },
+        "compliance": {
+          "title": "3. Conformité",
+          "content": "Nous nous soumetons régulièrement à des audits de sécurité tiers pour garantir la conformité aux normes mondiales."
+        }
       }
     }
   },
@@ -301,9 +482,18 @@
       "title": "Documentation",
       "subtitle": "Tout ce dont vous avez besoin pour construire et évoluer avec Secure Authorities.",
       "items": {
-        "guides": { "title": "Guides de démarrage", "description": "Apprenez les bases et configurez votre premier projet." },
-        "api": { "title": "Référence API", "description": "Documentation détaillée pour nos API robustes." },
-        "sdks": { "title": "SDK et outils", "description": "Bibliothèques officielles pour vos langages préférés." }
+        "guides": {
+          "title": "Guides de démarrage",
+          "description": "Apprenez les bases et configurez votre premier projet."
+        },
+        "api": {
+          "title": "Référence API",
+          "description": "Documentation détaillée pour nos API robustes."
+        },
+        "sdks": {
+          "title": "SDK et outils",
+          "description": "Bibliothèques officielles pour vos langages préférés."
+        }
       }
     },
     "help": {
@@ -326,9 +516,18 @@
       "title": "Communauté",
       "subtitle": "Connectez-vous avec d'autres développeurs et experts en sécurité.",
       "items": {
-        "forums": { "title": "Forums", "description": "Participez à la discussion et partagez vos connaissances." },
-        "events": { "title": "Événements", "description": "Webinaires, ateliers et rencontres à venir." },
-        "oss": { "title": "Open Source", "description": "Découvrez nos contributions à la communauté OSS." }
+        "forums": {
+          "title": "Forums",
+          "description": "Participez à la discussion et partagez vos connaissances."
+        },
+        "events": {
+          "title": "Événements",
+          "description": "Webinaires, ateliers et rencontres à venir."
+        },
+        "oss": {
+          "title": "Open Source",
+          "description": "Découvrez nos contributions à la communauté OSS."
+        }
       }
     },
     "status": {
@@ -354,5 +553,19 @@
   "footer": {
     "rights": "Tous droits réservés.",
     "globalOffices": "Bureaux mondiaux dans le monde entier"
+  },
+  "auth": {
+    "rememberMe": "Se souvenir de moi",
+    "forgotPassword": "Mot de passe oublié ?",
+    "orContinueWith": "Ou continuer avec",
+    "orSignUpWith": "Ou s'inscrire avec",
+    "google": "Google",
+    "microsoft": "Microsoft",
+    "noAccount": "Vous n'avez pas de compte ?",
+    "alreadyHaveAccount": "Vous avez déjà un compte ?",
+    "demoNotice": "Page de démonstration - Aucune authentification effectuée",
+    "registrationNotice": "Page de démonstration - Aucune inscription effectuée",
+    "termsAgreement": "En créant un compte, vous acceptez nos",
+    "and": "et"
   }
 }

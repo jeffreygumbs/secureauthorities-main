@@ -47,7 +47,7 @@ export default async function Leadership({
           {leaders.map((leader, index) => (
             <div key={index} className="group">
               <div className="backdrop-blur-xl bg-white/40 border border-white/60 rounded-3xl overflow-hidden shadow-2xl transition-all duration-500 hover:-translate-y-2">
-                <div className="aspect-4/5 relative overflow-hidden">
+                <div className="aspect-4/5 relative rounded-2xl overflow-hidden mb-6 group">
                   <ImageWithFallback
                     src={leader.image}
                     alt={leader.name}

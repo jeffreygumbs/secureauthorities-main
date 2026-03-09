@@ -1,12 +1,11 @@
 "use client";
 
-import { use } from "react";
 import Link from "next/link";
 import { getDictionary } from "../../get-dictionary";
-import { type Locale } from "../../i18n-config";
 
-export default function Footer({ lang }: { lang: string }) {
-  const dict = use(getDictionary(lang as Locale));
+type Dictionary = Awaited<ReturnType<typeof getDictionary>>;
+
+export default function Footer({ lang, dict }: { lang: string; dict: Dictionary }) {
   return (
     <footer className="bg-[#f5f5f7] border-t border-black/5">
       <div className="max-w-[1200px] mx-auto px-6 sm:px-8 py-12 md:py-16">
@@ -84,7 +83,7 @@ export default function Footer({ lang }: { lang: string }) {
 
           {/* Support */}
           <div>
-            <h4 className="text-xs mb-4 text-black/90 font-bold uppercase tracking-wider">Support</h4>
+            <h4 className="text-xs mb-4 text-black/90 font-bold uppercase tracking-wider">{dict.navigation.support}</h4>
             <ul className="space-y-2.5 text-xs">
               <li>
                 <Link href={`/${lang}/support/docs`} className="text-black/60 hover:text-black transition-colors">
@@ -111,7 +110,7 @@ export default function Footer({ lang }: { lang: string }) {
 
           {/* Legal */}
           <div>
-            <h4 className="text-xs mb-4 text-black/90 font-bold uppercase tracking-wider">Legal</h4>
+            <h4 className="text-xs mb-4 text-black/90 font-bold uppercase tracking-wider">{dict.navigation.legal}</h4>
             <ul className="space-y-2.5 text-xs">
               <li>
                 <Link href={`/${lang}/legal/privacy-policy`} className="text-black/60 hover:text-black transition-colors">

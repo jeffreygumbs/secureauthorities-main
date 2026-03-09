@@ -202,7 +202,13 @@ export default async function About({
             {dict.about.presence.subtitle}
           </p>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-8 text-sm font-bold tracking-widest uppercase text-white/50">
-            {["North America", "Europe", "Asia Pacific", "Middle East", "Latin America"].map((region, index) => (
+            {[
+              dict.about.presence.regions.northAmerica,
+              dict.about.presence.regions.europe,
+              dict.about.presence.regions.asiaPacific,
+              dict.about.presence.regions.middleEast,
+              dict.about.presence.regions.latinAmerica,
+            ].map((region, index) => (
               <div key={index} className="hover:text-white transition-colors cursor-default">
                 {region}
               </div>

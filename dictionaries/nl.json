@@ -9,7 +9,10 @@
     "contact": "Contact",
     "signIn": "Inloggen",
     "signUp": "Aanmelden",
-    "getStarted": "Aan de slag"
+    "getStarted": "Aan de slag",
+    "support": "Ondersteuning",
+    "legal": "Juridisch",
+    "language": "Taal"
   },
   "home": {
     "hero": {
@@ -126,7 +129,14 @@
     },
     "presence": {
       "title": "Wereldwijde aanwezigheid",
-      "subtitle": "Onze gespecialiseerde teams zijn verspreid over grote wereldwijde hubs en bieden naadloze ondersteuning en engineering-uitmuntendheid, ongeacht de geografie."
+      "subtitle": "Onze gespecialiseerde teams are distributed across major global hubs, providing seamless support and engineering excellence regardless of geography.",
+      "regions": {
+        "northAmerica": "Noord-Amerika",
+        "europe": "Europa",
+        "asiaPacific": "Azië-Pacific",
+        "middleEast": "Midden-Oosten",
+        "latinAmerica": "Latijns-Amerika"
+      }
     }
   },
   "leadership": {
@@ -184,7 +194,20 @@
       "message": "Bericht",
       "send": "Bericht versturen",
       "sending": "Verzenden...",
-      "success": "Bericht verzonden! We nemen spoedig contact met u op."
+      "success": "Bericht verzonden! We nemen spoedig contact met u op.",
+      "placeholders": {
+        "firstName": "Jan",
+        "lastName": "Jansen",
+        "email": "jan.jansen@example.com",
+        "message": "Hoe kunnen we u helpen?"
+      },
+      "subjects": {
+        "product": "Productaanvraag",
+        "support": "Algemene ondersteuning",
+        "security": "Beveiligingsadvies",
+        "partnership": "Partnerschap"
+      },
+      "sendAnother": "Nog een bericht sturen"
     }
   },
   "products": {
@@ -192,36 +215,135 @@
       "title": "Enterprise-producten",
       "subtitle": "Cloud- en beveiligingsplatforms gebouwd voor schaal"
     },
+    "pricing": {
+      "mostPopular": "Meest Populair",
+      "monthly": "mnd",
+      "custom": "Maatwerk"
+    },
     "dono": {
       "features": {
-        "unified": { "title": "Gezamenlijk ecosysteem", "description": "Verbind al uw bedrijfsprocessen in één krachtige super-app." },
-        "data": { "title": "Data-intelligentie", "description": "Geïntegreerde cloudopslag met real-time analytics en inzichten." },
-        "messaging": { "title": "Veilige berichtgeving", "description": "Versleutelde communicatie van enterprise-kwaliteit voor uw hele team." },
-        "scaling": { "title": "Direct schalen", "description": "Wereldwijde infrastructuur die meegroeit met uw organisatie." },
-        "automation": { "title": "Workflow-automatisering", "description": "Optimaliseer activiteiten met ingebouwde productiviteitstools." },
-        "ready": { "title": "Klaar voor de onderneming", "description": "Voldoet aan wereldwijde normen en 99,99% maandelijks uptime SLA." }
+        "unified": {
+          "title": "Gezamenlijk ecosysteem",
+          "description": "Verbind al uw bedrijfsprocessen in één krachtige super-app."
+        },
+        "data": {
+          "title": "Data-intelligentie",
+          "description": "Geïntegreerde cloudopslag met real-time analytics en inzichten."
+        },
+        "messaging": {
+          "title": "Veilige berichtgeving",
+          "description": "Versleutelde communicatie van enterprise-kwaliteit voor uw hele team."
+        },
+        "scaling": {
+          "title": "Direct schalen",
+          "description": "Wereldwijde infrastructuur die meegroeit met uw organisatie."
+        },
+        "automation": {
+          "title": "Workflow-automatisering",
+          "description": "Optimaliseer activiteiten met ingebouwde productiviteitstools."
+        },
+        "ready": {
+          "title": "Klaar voor de onderneming",
+          "description": "Voldoet aan wereldwijde normen en 99,99% maandelijks uptime SLA."
+        }
       },
       "pricing": {
         "title": "Dono-prijzen",
-        "starter": { "name": "Starter", "price": "€49", "features": ["100 GB opslag", "Tot 5 gebruikers", "Basis analytics", "E-mailondersteuning"] },
-        "professional": { "name": "Professional", "price": "€149", "features": ["1 TB opslag", "Tot 25 gebruikers", "Geavanceerde analytics", "24/7 ondersteuning", "Integraties"] },
-        "enterprise": { "name": "Enterprise", "price": "Maatwerk", "features": ["Onbeperkte opslag", "Onbeperkt aantal gebruikers", "Enterprise analytics", "Toegewijde ondersteuning", "SLA"] }
+        "starter": {
+          "name": "Starter",
+          "price": "€49",
+          "features": [
+            "100 GB opslag",
+            "Tot 5 gebruikers",
+            "Basis analytics",
+            "E-mailondersteuning"
+          ]
+        },
+        "professional": {
+          "name": "Professional",
+          "price": "€149",
+          "features": [
+            "1 TB opslag",
+            "Tot 25 gebruikers",
+            "Geavanceerde analytics",
+            "24/7 ondersteuning",
+            "Integraties"
+          ]
+        },
+        "enterprise": {
+          "name": "Enterprise",
+          "price": "Maatwerk",
+          "features": [
+            "Onbeperkte opslag",
+            "Onbeperkt aantal gebruikers",
+            "Enterprise analytics",
+            "Dedicated ondersteuning",
+            "SLA"
+          ]
+        }
       }
     },
     "shadow": {
       "features": {
-        "ai": { "title": "AI-detectie", "description": "Machine learning met 99,9% nauwkeurigheid" },
-        "response": { "title": "Directe respons", "description": "Geautomatiseerde dreigingsneutralisatie" },
-        "trust": { "title": "Zero-Trust", "description": "Beveiligingsarchitectuur van enterprise-kwaliteit" },
-        "intelligence": { "title": "Intelligentie", "description": "Wereldwijde dreigingsanalyse" },
-        "compliance": { "title": "Compliance", "description": "GDPR, HIPAA rapportage" },
-        "monitoring": { "title": "24/7 Monitoring", "description": "SOC-monitoring" }
+        "ai": {
+          "title": "AI-detectie",
+          "description": "Machine learning met 99,9% nauwkeurigheid"
+        },
+        "response": {
+          "title": "Directe respons",
+          "description": "Geautomatiseerde dreigingsneutralisatie"
+        },
+        "trust": {
+          "title": "Zero-Trust",
+          "description": "Beveiligingsarchitectuur van enterprise-kwaliteit"
+        },
+        "intelligence": {
+          "title": "Intelligentie",
+          "description": "Wereldwijde dreigingsanalyse"
+        },
+        "compliance": {
+          "title": "Compliance",
+          "description": "GDPR, HIPAA rapportage"
+        },
+        "monitoring": {
+          "title": "24/7 Monitoring",
+          "description": "SOC-monitoring"
+        }
       },
       "pricing": {
         "title": "Shadow-prijzen",
-        "basic": { "name": "Basis", "price": "€299", "features": ["50 Endpoints", "Real-time monitoring", "Dreigingsdetectie", "E-mailwaarschuwingen"] },
-        "advanced": { "name": "Geavanceerd", "price": "€799", "features": ["500 Endpoints", "AI-detectie", "Geautomatiseerde respons", "24/7 SOC", "Intelligentie"] },
-        "enterprise": { "name": "Enterprise", "price": "Maatwerk", "features": ["Onbeperkt aantal endpoints", "Aangepaste AI", "Toegewijde SOC", "Compliance Suite", "SLA"] }
+        "basic": {
+          "name": "Basis",
+          "price": "€299",
+          "features": [
+            "50 Endpoints",
+            "Real-time monitoring",
+            "Dreigingsdetectie",
+            "E-mailwaarschuwingen"
+          ]
+        },
+        "advanced": {
+          "name": "Geavanceerd",
+          "price": "€799",
+          "features": [
+            "500 Endpoints",
+            "AI-detectie",
+            "Geautomatiseerde respons",
+            "24/7 SOC",
+            "Intelligentie"
+          ]
+        },
+        "enterprise": {
+          "name": "Enterprise",
+          "price": "Maatwerk",
+          "features": [
+            "Onbeperkt aantal endpoints",
+            "Aangepaste AI",
+            "Toegewijde SOC",
+            "Compliance Suite",
+            "SLA"
+          ]
+        }
       }
     }
   },
@@ -234,32 +356,64 @@
       "web": {
         "title": "Webontwikkeling",
         "description": "Moderne, schaalbare webapplicaties gebouwd met geavanceerde technologieën",
-        "features": ["React, Vue en Angular", "Progressive Web Apps", "E-commerce platforms", "API-ontwikkeling"]
+        "features": [
+          "React, Vue en Angular",
+          "Progressive Web Apps",
+          "E-commerce platforms",
+          "API-ontwikkeling"
+        ]
       },
       "mobile": {
         "title": "Mobiele ontwikkeling",
         "description": "Native en cross-platform mobiele applicaties voor iOS en Android",
-        "features": ["Native iOS en Android", "React Native ontwikkeling", "Flutter-applicaties", "App Store optimalisatie"]
+        "features": [
+          "Native iOS en Android",
+          "React Native ontwikkeling",
+          "Flutter-applicaties",
+          "App Store optimalisatie"
+        ]
       },
       "desktop": {
         "title": "Desktopontwikkeling",
         "description": "Cross-platform desktopapplicaties voor zakelijke omgevingen",
-        "features": ["Electron-applicaties", "Native ontwikkeling", "Cross-platform ondersteuning", "Zakelijke integratie"]
+        "features": [
+          "Electron-applicaties",
+          "Native ontwikkeling",
+          "Cross-platform ondersteuning",
+          "Zakelijke integratie"
+        ]
       },
       "security": {
         "title": "Cybersecurity",
         "description": "Uitgebreide beveiligingsoplossingen die uw digitale infrastructuur beschermen",
-        "features": ["Dreigingsdetectie", "Penratietesten", "Beveiligingscompliance", "Incidentrespons"]
+        "features": [
+          "Dreigingsdetectie",
+          "Penratietesten",
+          "Beveiligingscompliance",
+          "Incidentrespons"
+        ]
       }
     },
     "process": {
       "title": "Ons proces",
       "subtitle": "Bewezen methodologie die uitzonderlijke resultaten levert",
       "steps": {
-        "discovery": { "title": "Ontdekking", "description": "Vereisten begrijpen en doelen definiëren" },
-        "design": { "title": "Ontwerp", "description": "Intuïtieve gebruikerservaringen creëren" },
-        "development": { "title": "Ontwikkeling", "description": "Bouwen met agile methodologie" },
-        "launch": { "title": "Lancering", "description": "Implementatie met voortdurende ondersteuning" }
+        "discovery": {
+          "title": "Ontdekking",
+          "description": "Vereisten begrijpen en doelen definiëren"
+        },
+        "design": {
+          "title": "Ontwerp",
+          "description": "Intuïtieve gebruikerservaringen creëren"
+        },
+        "development": {
+          "title": "Ontwikkeling",
+          "description": "Bouwen met agile methodologie"
+        },
+        "launch": {
+          "title": "Lancering",
+          "description": "Implementatie met voortdurende ondersteuning"
+        }
       }
     },
     "cta": {
@@ -272,27 +426,54 @@
       "title": "Privacybeleid",
       "lastUpdated": "Laatst bijgewerkt: 8 maart 2026",
       "sections": {
-        "acceptance": { "title": "1. Gegevensverzameling", "content": "Wij verzamelen informatie die u rechtstreeks aan ons verstrekt wanneer u een account aanmaakt, onze diensten gebruikt of met ons communiceert." },
-        "use": { "title": "2. Gebruik van informatie", "content": "Wij gebruiken de informatie die wij verzamelen om onze diensten te leveren, te onderhouden en te verbeteren, en om nieuwe te ontwikkelen." },
-        "sharing": { "title": "3. Informatie delen", "content": "Wij delen uw persoonlijke informatie niet met derden, behalve zoals beschreven in dit beleid." }
+        "acceptance": {
+          "title": "1. Gegevensverzameling",
+          "content": "Wij verzamelen informatie die u rechtstreeks aan ons verstrekt wanneer u een account aanmaakt, onze diensten gebruikt of met ons communiceert."
+        },
+        "use": {
+          "title": "2. Gebruik van informatie",
+          "content": "Wij gebruiken the information die wij verzamelen om onze diensten te leveren, te onderhouden en te verbeteren, en om nieuwe te ontwikkelen."
+        },
+        "sharing": {
+          "title": "3. Informatie delen",
+          "content": "Wij delen uw persoonlijke informatie niet met derden, behalve zoals beschreven in dit beleid."
+        }
       }
     },
     "terms": {
       "title": "Algemene voorwaarden",
       "lastUpdated": "Laatst bijgewerkt: 8 maart 2026",
       "sections": {
-        "acceptance": { "title": "1. Acceptatie van voorwaarden", "content": "Door toegang te krijgen tot of gebruik te maken van de diensten van Secure Authorities, gaat u akkoord met deze algemene voorwaarden." },
-        "usage": { "title": "2. Gebruik van diensten", "content": "U gaat ermee akkoord onze diensten alleen voor wettige doeleinden te gebruiken en in overeenstemming met deze voorwaarden." },
-        "ip": { "title": "3. Intellectueel eigendom", "content": "Alle inhoud en materialen die beschikbaar zijn op onze diensten zijn eigendom van Secure Authorities of haar licentiegevers." }
+        "acceptance": {
+          "title": "1. Acceptatie van voorwaarden",
+          "content": "Door toegang te krijgen tot of gebruik te maken van de diensten van Secure Authorities, gaat u akkoord met deze algemene voorwaarden."
+        },
+        "usage": {
+          "title": "2. Gebruik van diensten",
+          "content": "U gaat ermee akkoord onze diensten alleen voor wettige doeleinden te gebruiken en in overeenstemming met deze voorwaarden."
+        },
+        "ip": {
+          "title": "3. Intellectueel eigendom",
+          "content": "Alle inhoud en materialen die beschikbaar zijn op onze diensten zijn eigendom van Secure Authorities of haar licentiegevers."
+        }
       }
     },
     "security": {
       "title": "Beveiligingsengagement",
       "lastUpdated": "Laatst bijgewerkt: 8 maart 2026",
       "sections": {
-        "encryption": { "title": "1. Versleuteling", "content": "Alle gegevens worden in rust en tijdens transport versleuteld met behulp van industriestandaard protocollen." },
-        "infrastructure": { "title": "2. Infrastructuur", "content": "Onze infrastructuur wordt gehost in streng beveiligde datacenters met 24/7 monitoring." },
-        "compliance": { "title": "3. Compliance", "content": "Wij ondergaan regelmatig beveiligingsaudits door derden om naleving van wereldwijde normen te garanderen." }
+        "encryption": {
+          "title": "1. Versleuteling",
+          "content": "Alle gegevens worden in rust en tijdens transport versleuteld met behulp van industriestandaard protocollen."
+        },
+        "infrastructure": {
+          "title": "2. Infrastructuur",
+          "content": "Onze infrastructuur wordt gehost in streng beveiligde datacenters met 24/7 monitoring."
+        },
+        "compliance": {
+          "title": "3. Compliance",
+          "content": "Wij ondergaan regelmatig beveiligingsaudits door derden om naleving van wereldwijde normen te garanderen."
+        }
       }
     }
   },
@@ -301,9 +482,18 @@
       "title": "Documentatie",
       "subtitle": "Alles wat u nodig heeft om te bouwen en op te schalen met Secure Authorities.",
       "items": {
-        "guides": { "title": "Handleidingen voor beginners", "description": "Leer de basis en configureer uw eerste project." },
-        "api": { "title": "API-referentie", "description": "Gedetailleerde documentatie voor onze robuuste API's." },
-        "sdks": { "title": "SDK's & Tools", "description": "Officiële bibliotheken voor uw favoriete talen." }
+        "guides": {
+          "title": "Handleidingen voor beginners",
+          "description": "Leer de basis en configureer uw eerste project."
+        },
+        "api": {
+          "title": "API-referentie",
+          "description": "Gedetailleerde documentatie voor onze robuuste API's."
+        },
+        "sdks": {
+          "title": "SDK's & Tools",
+          "description": "Officiële bibliotheken voor uw favoriete talen."
+        }
       }
     },
     "help": {
@@ -326,9 +516,18 @@
       "title": "Community",
       "subtitle": "Maak contact met andere ontwikkelaars en beveiligingsexperts.",
       "items": {
-        "forums": { "title": "Forums", "description": "Neem deel aan de discussie en deel uw kennis." },
-        "events": { "title": "Evenementen", "description": "Aankomende webinars, workshops en meetups." },
-        "oss": { "title": "Open Source", "description": "Bekijk onze bijdragen aan de OSS-community." }
+        "forums": {
+          "title": "Forums",
+          "description": "Neem deel aan de discussie en deel uw kennis."
+        },
+        "events": {
+          "title": "Evenementen",
+          "description": "Aankomende webinars, workshops en meetups."
+        },
+        "oss": {
+          "title": "Open Source",
+          "description": "Bekijk onze bijdragen aan de OSS-community."
+        }
       }
     },
     "status": {
@@ -354,5 +553,19 @@
   "footer": {
     "rights": "Alle rechten voorbehouden.",
     "globalOffices": "Wereldwijde kantoren"
+  },
+  "auth": {
+    "rememberMe": "Onthoud mij",
+    "forgotPassword": "Wachtwoord vergeten?",
+    "orContinueWith": "Of ga verder met",
+    "orSignUpWith": "Of meld u aan met",
+    "google": "Google",
+    "microsoft": "Microsoft",
+    "noAccount": "Nog geen account?",
+    "alreadyHaveAccount": "Heeft u al een account?",
+    "demoNotice": "Demopagina - Geen authenticatie uitgevoerd",
+    "registrationNotice": "Demopagina - Geen registratie uitgevoerd",
+    "termsAgreement": "Door een account aan te maken, gaat u akkoord met onze",
+    "and": "en"
   }
 }

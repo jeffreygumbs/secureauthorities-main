@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, use } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { ChevronDown, Menu, X, Globe } from "lucide-react";
@@ -13,12 +13,12 @@ import {
 import { usePathname } from "next/navigation";
 import { i18n } from "../../i18n-config";
 import { getDictionary } from "../../get-dictionary";
-import { type Locale } from "../../i18n-config";
 
-export default function Header({ lang }: { lang: string }) {
+type Dictionary = Awaited<ReturnType<typeof getDictionary>>;
+
+export default function Header({ lang, dict }: { lang: string; dict: Dictionary }) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const pathname = usePathname();
-  const dict = use(getDictionary(lang as Locale));
 
   const languageNames: Record<string, string> = {
     en: "English",
@@ -239,7 +239,7 @@ export default function Header({ lang }: { lang: string }) {
               </div>
 
               <div className="flex flex-col gap-4">
-                <div className="text-xs uppercase tracking-widest text-black/40 font-bold border-b border-black/5 pb-2">Support</div>
+                <div className="text-xs uppercase tracking-widest text-black/40 font-bold border-b border-black/5 pb-2">{dict.navigation.support}</div>
                 <div className="grid grid-cols-2 gap-4">
                   {support.map((item) => (
                     <Link
@@ -255,7 +255,7 @@ export default function Header({ lang }: { lang: string }) {
               </div>
 
               <div className="flex flex-col gap-4">
-                <div className="text-xs uppercase tracking-widest text-black/40 font-bold border-b border-black/5 pb-2">Language</div>
+                <div className="text-xs uppercase tracking-widest text-black/40 font-bold border-b border-black/5 pb-2">{dict.navigation.language}</div>
                 <div className="grid grid-cols-3 gap-3">
                   {i18n.locales.map((locale) => (
                     <Link
